@@ -4,16 +4,14 @@ Welcome to my personal portfolio website. This portfolio showcases my projects, 
 
 ## Featured Projects
 - Auction Website (HTML, CSS, JavaScript, PHP)
-- AI-Driven Meal Planning Tool (HTML, CSS, JavaScript, Python)
+- AI-Driven Meal Planning Tool (HTML, CSS, JavaScript, Python and inception v3)
 - Weather Forecast Dashboard (React, OpenWeather API)
 
 ## Technologies Used
 - HTML5
 - CSS3
 - JavaScript
-- React
 - PHP
-- Python
 - Git & GitHub
 
 ## Live Demo
@@ -21,4 +19,4 @@ Welcome to my personal portfolio website. This portfolio showcases my projects, 
 
 ## Contact
 - LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
+- Email: [jeevitharaja2811@gmail.com]
