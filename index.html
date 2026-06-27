@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeevitha Portfolio | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-instagram" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+      <circle cx="12" cy="12" r="4"></circle>
+      <circle cx="17.5" cy="6.5" r="1"></circle>
+    </symbol>
+    <symbol id="icon-telegram" viewBox="0 0 24 24">
+      <path d="M21 4 3.8 10.7c-1.1.4-1.1 1.9.1 2.2l4.3 1.3 1.7 5.1c.3 1 1.6 1.2 2.2.4l2.4-3.1 4.6 3.4c.9.7 2.2.2 2.4-.9L23 5.4c.2-1-.9-1.8-2-1.4Z"></path>
+      <path d="m8.3 14.1 9.9-6.2-7.8 8.2"></path>
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z"></path>
+      <rect x="2" y="9" width="4" height="12"></rect>
+      <circle cx="4" cy="4" r="2"></circle>
+    </symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24">
+      <path d="M9 19c-4 1.4-4-2-5.6-2.5"></path>
+      <path d="M15 22v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.8-1.4 5.8-6A4.7 4.7 0 0 0 19 7.2a4.4 4.4 0 0 0-.1-3.2s-1-.3-3.4 1.3a11.7 11.7 0 0 0-6.2 0C6.9 3.7 5.9 4 5.9 4a4.4 4.4 0 0 0-.1 3.2 4.7 4.7 0 0 0-1.3 3.3c0 4.6 3 5.7 5.8 6-.6.6-.7 1.2-.7 2V22"></path>
+    </symbol>
+    <symbol id="icon-email" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+      <path d="m3 7 9 6 9-6"></path>
+    </symbol>
+    <symbol id="icon-home" viewBox="0 0 24 24">
+      <path d="M3 10.5 12 3l9 7.5"></path>
+      <path d="M5 9.5V20h14V9.5"></path>
+    </symbol>
+    <symbol id="icon-about" viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="4"></circle>
+      <path d="M4 20c1.5-4 6.5-6 8-6s6.5 2 8 6"></path>
+    </symbol>
+    <symbol id="icon-skills" viewBox="0 0 24 24">
+      <path d="M12 2 4 7v10l8 5 8-5V7l-8-5Z"></path>
+      <path d="M12 12 4 7"></path>
+      <path d="M12 12v10"></path>
+      <path d="M12 12 20 7"></path>
+    </symbol>
+    <symbol id="icon-resume" viewBox="0 0 24 24">
+      <path d="M8 3h8l4 4v14H4V3h4Z"></path>
+      <path d="M16 3v4h4"></path>
+      <path d="M8 13h8"></path>
+      <path d="M8 17h5"></path>
+    </symbol>
+    <symbol id="icon-projects" viewBox="0 0 24 24">
+      <path d="M3 7h18"></path>
+      <path d="M5 7V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v2"></path>
+      <rect x="3" y="7" width="18" height="14" rx="2"></rect>
+    </symbol>
+    <symbol id="icon-certifications" viewBox="0 0 24 24">
+      <circle cx="12" cy="8" r="5"></circle>
+      <path d="M8.5 14 7 22l5-3 5 3-1.5-8"></path>
+    </symbol>
+    <symbol id="icon-contact" viewBox="0 0 24 24">
+      <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8Z"></path>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="profile-panel">
+      <img src="assets/i3.png" alt="Profile picture" class="header-photo">
+      <h1>Jeevitha</h1>
+      <p>Full Stack Developer</p>
+    </div>
+
+    <div class="social-row" aria-label="Social links">
+      <a href="https://www.instagram.com/_jeevitha_.28/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram"><svg><use href="#icon-instagram"></use></svg></a>
+      <a href="https://t.me/@Jeevitha_28_11" target="_blank" rel="noreferrer" aria-label="Telegram" title="Telegram"><svg><use href="#icon-telegram"></use></svg></a>
+      <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg><use href="#icon-linkedin"></use></svg></a>
+      <a href="https://github.com/jeevitha281103" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><svg><use href="#icon-github"></use></svg></a>
+      <a href="mailto:jeevitharaja2811@gmail.com" aria-label="Email" title="Email"><svg><use href="#icon-email"></use></svg></a>
+    </div>
+
+    <nav class="main-nav" aria-label="Portfolio sections">
+      <a href="#home" class="active"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-home"></use></svg></span>Home</a>
+      <a href="#about"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-about"></use></svg></span>About</a>
+      <a href="#skills"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-skills"></use></svg></span>Skills</a>
+      <a href="#resume"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-resume"></use></svg></span>Resume</a>
+      <a href="#projects"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-projects"></use></svg></span>Projects</a>
+      <a href="#certifications"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-certifications"></use></svg></span>Certifications</a>
+      <a href="#contact"><span class="nav-icon" aria-hidden="true"><svg><use href="#icon-contact"></use></svg></span>Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section id="home" class="hero section-dark-photo">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="eyebrow">Portfolio</span>
+        <h2>Jeevitha</h2>
+        <p>Full Stack Developer</p>
+      </div>
+    </section>
+
+    <section id="about" class="content-section">
+      <div class="section-heading">
+        <h2>About</h2>
+        <p>I am a creative individual passionate about web customization and AI-powered solutions with a strong interest in frontend development, web customization, Java development and product development.Currently, I finished a Bachelor Degree in Information Technology at RGCET (2021-2025).I am a dedicated, self assured and eager learner who is constantly looking for oppertunities to pick up new abilities.To the best of my knowledge avidly seeks to serve a professional organaisation with sincere devotion ,diligence and commitment.</p>
+      </div>
+
+      <div class="about-grid">
+        <img src="assets/i2.png" alt="profile picture" class="about-photo">
+        <div class="details-list">
+          <div><strong>Name:</strong><span>Jeevitha</span></div>
+          <div><strong>Profile:</strong><span> Full Stack Developer</span></div>
+          <div><strong>Degree:</strong><span>Bachelor of Technology</span></div>
+          <div><strong>Stream:</strong><span>Information Technology</span></div>
+          <div><strong>City:</strong><span> Cuddalore, Tamil Nadu</span></div>
+          <div><strong>Phone:</strong><span>+91 88389 59415</span></div>
+          <div><strong>Email:</strong><span>jeevitharaja2811@gmail.com</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section">
+      <div class="section-heading">
+        <h2>Skills</h2>
+        <p>Proficient in Full Stack Development with expertise in HTML, CSS, JavaScript, React.js, Java, PHP, and MySQL. Passionate about designing responsive web applications, developing backend systems, and managing databases efficiently.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-item" data-level="90">
+          <div class="skill-label"><span>HTML</span><span>90%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+        <div class="skill-item" data-level="85">
+          <div class="skill-label"><span>CSS</span><span>85%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+        <div class="skill-item" data-level="80">
+          <div class="skill-label"><span>JavaScript</span><span>80%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+        <div class="skill-item" data-level="75">
+          <div class="skill-label"><span>PHP</span><span>65%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+        <div class="skill-item" data-level="78">
+          <div class="skill-label"><span>Java</span><span>78%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+        <div class="skill-item" data-level="82">
+          <div class="skill-label"><span>My SQL</span><span>72%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+        <div class="skill-item" data-level="82">
+          <div class="skill-label"><span>React JS</span><span>69%</span></div>
+          <div class="progress"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="content-section">
+      <div class="section-heading">
+        <h2>Resume</h2>
+        <p>Information Technology graduate and aspiring Full Stack Developer with hands-on experience in web development, backend systems, and AI-powered applications. Skilled in creating responsive and efficient software solutions using modern technologies, with a strong passion for problem-solving, innovation, and continuous learning.</p>
+      </div>
+
+      <div class="resume-grid">
+        <article class="resume-column">
+          <h3>Personal Information</h3>
+          <div class="timeline-item">
+            <h4><B>CONTACT DETAILS</B></h4>
+            <b>Phone:</b> <p>+91 88389 59415</p>
+            <br><b>Email:</b><p> jeevitharaja2811@gmail.com</p>
+            <br><b>Address:</b><p> No:49, Aariyanattu Chathira Street,
+               Parangipettai, Bhuvanagiri Taluk, 
+               Cuddalore, Tamil Nadu-608502</p>
+          </div>
+          <div class="timeline-item">
+            <h4><B>ACADEMIC DETAILS</B></h4>
+            <h4><i><b>Bachelor of Information Technology</b></i></h4>
+            <p> Rajiv Gandhi College of Engineering and Technology
+            </br><i>CGPA : 74.1%</i>
+            </p>
+            </br>
+            <h4><i><b>Higher Secondary Schooling</b></i></h4>
+            <p>Alpha Matriculation Higher Secondary School
+            </br><i>Percentage :90.6%</i>
+            </p>
+            </br>
+            <h4><i><b>Secondary Schooling</b></i></h4>
+            <p>Alpha Matriculation Higher Secondary School
+            </br><i>Percentage :87.6%</i>
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4>Languages</h4>
+            <p>
+              <ul>
+                <li>English</li>
+                <li>Tamil</li>
+                <li>French (Basic)</li>
+              </ul>
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4>Area of Interest</h4>
+            <p>
+              <ul>
+                <li>Frontend Development</li>
+                <li>Web Customization</li>
+                <li>Java Development</li>
+                <li>AI-powered Solutions</li>
+                <li>Product Development</li>
+              </ul>
+            </p>
+          </div> 
+        </article>
+        <article class="resume-column">
+          <h3>Professional Experience</h3>
+          <div class="timeline-item">
+            <h4>Technical Skills</h4>
+            <p>
+              <ul>
+                <li><b>Front-End:</b>HTML, CSS, JavaScript,React JS . </li>
+                <li><B>Programming:</B> Java</li>
+                <li><b>Back-End:</b> My SQL, PHP</li>
+              </ul>
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4><b>PROJECTS</b></h4>
+            <h4>Auction Website:</h4>
+            <p>Built with HTML, CSS, JS and PHP for antique item bidding.</p>
+            </br><h4>AI-Driven Meal Planning Tool:</h4>
+            <p>Built with HTML, CSS, JS, Python, MySQL and Inception V3 for personalized diet planning.</p>
+          </div>
+          <div class="timeline-item">
+            <h4><b>INTERNSHIP</b></h4>
+            <ul>
+              <li>Workshop - Testing of Electronic Devices in Hardware
+                <p><i>Raja Electronics Institute</i></p></li>
+              <li>Backend Internship - Java
+                <p><i>Valvenet Technologies</i></p></li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <h4><b>COURSE</b></h4>
+            ADFD - Advanced Diploma in Full Stack Development
+          </br><p><i>CSC Institute</i></p>
+          </div>
+          <div class="timeline-item">
+            <h4><b>COMPETITIONS</b></h4>
+            <p>
+              <ul>
+                <li>Participated in <b>Relay Codding</b> held in Pondicherry Technological University</li>
+                <li>Participated in <b>Technical Quiz</b> held in Pondicherry Technological University</li>
+                <li>Participated in <b>Code Debugging</b> held in Pondicherry Technological University</li>
+              </ul>
+            </p>
+          </div>
+          <div class="timeline-item">
+            <h4><B>CERTIFICATIONS</B></h4>
+            <ul>
+              <li>HTML Training</br><p><i>Spoken Tutorial Project, IIT Bombay</i></p></li>
+              <li>PYTHON 3.4.3 Training</br><p><i>Spoken Tutorial Project, IIT Bombay</i></p></li>
+              <li>GIT Training</br><p><i>Spoken Tutorial Project, IIT Bombay</i></p></li>
+            </ul>
+          </div>  
+        </article>
+
+        
+      </div>
+    </section>
+
+    <section id="projects" class="content-section">
+      <div class="section-heading">
+        <h2>Projects</h2>
+        <p>Developed a diverse portfolio of projects ranging from AI-powered solutions to full-stack web applications and API-driven dashboards. Leveraged technologies such as React, JavaScript, PHP, Python, MySQL, and machine learning models to create user-centric, scalable, and practical digital solutions.</p>
+      </div>
+
+      
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/auction-website.jpg" alt="Auction Website project">
+          <div>
+            <h3>Auction Website</h3>
+            <p>An Auction Website is an web application that allows user to buy and sell antique items through an online bidding process.</p>
+            <a href="projects/auction-website.html">View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/ai-driven-meal-planning-tool.jpg" alt="AI-Driven Meal Planning Tool project">
+          <div>
+            <h3>AI-Driven Meal Planning Tool</h3>
+            <p>The AI-powered diet planner utilizes image recognition technology to identify food items, determine their quantity, and calculate their calorie content.</p>
+            <a href="projects/ai-driven-meal-planning-tool.html">View Project</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/weather forecast dashboard.jpg" alt="Weather Forecast Dashboard project">
+          <div>
+            <h3>Weather Forecast Dashboard</h3>
+            <p>Search city
+            <br>Current weather
+            <br>5-day forecast
+            <br>Tech: React + OpenWeather API</p>
+            <a href="projects/weather-forecast-dashboard.html">View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="content-section">
+      <div class="section-heading">
+        <h2>Certification</h2>
+        <p>A collection of certifications earned through courses, competitions, projects, and industry visits that reflect my continuous learning and technical growth.</p>
+      </div>
+
+      <div class="certificate-filters" role="tablist" aria-label="Certificate categories">
+        <button type="button" class="cert-filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button type="button" class="cert-filter" data-filter="course" role="tab" aria-selected="false">Course</button>
+        <button type="button" class="cert-filter" data-filter="project" role="tab" aria-selected="false">Project</button>
+        <button type="button" class="cert-filter" data-filter="technical" role="tab" aria-selected="false">Technical</button>
+        <button type="button" class="cert-filter" data-filter="others" role="tab" aria-selected="false">Others</button>
+      </div>
+
+      <div class="certificate-grid">
+        <figure class="certificate-card" data-category="course">
+          <img src="assets/html.jpg" alt="HTML Certificate">
+          <figcaption>
+            <strong>HTML Certificate</strong>
+            <span>Completed HTML Training through the Spoken Tutorial Project, IIT Bombay.</span>
+            <span>Built strong foundations in semantic markup and structured web page design.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="course">
+          <img src="assets/adfd.jpeg" alt="Advanced Diploma in Full Stack Development Certificate">
+          <figcaption>
+            <strong>Advanced Diploma in Full Stack Development Certificate</strong>
+            <span>Completed ADFD at CSC Institute covering frontend, backend, and database development.</span>
+            <span>Strengthened practical skills in building complete full stack web applications.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="others">
+          <img src="assets/workshop.jpeg" alt="Workshop Certificate">
+          <figcaption>
+            <strong>Workshop Certificate</strong>
+            <span>Attended a workshop on Testing of Electronic Devices in Hardware at Raja Electronics Institute.</span>
+            <span>Gained hands-on exposure to hardware testing methods and electronic device evaluation.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="technical">
+          <img src="assets/relay coding.jpeg" alt="Relay Coding Certificate">
+          <figcaption>
+            <strong>Relay Coding Certificate</strong>
+            <span>Participated in Relay Coding at Pondicherry Technological University.</span>
+            <span>Demonstrated team-based competitive programming and rapid problem-solving under pressure.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="course">
+          <img src="assets/git.jpg" alt="GIT Certificate">
+          <figcaption>
+            <strong>GIT Certificate</strong>
+            <span>Completed GIT Training through the Spoken Tutorial Project, IIT Bombay.</span>
+            <span>Learned version control workflows for collaborative and organized software development.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="course">
+          <img src="assets/python 3.4.3.jpeg" alt="Python 3.4.3 Training Certificate">
+          <figcaption>
+            <strong>Python 3.4.3 Training Certificate</strong>
+            <span>Completed Python 3.4.3 Training through the Spoken Tutorial Project, IIT Bombay.</span>
+            <span>Developed core Python programming skills for scripting and application development.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="project">
+          <img src="assets/rsp.jpeg" alt="RSP Publication Certificate">
+          <figcaption>
+            <strong>RSP Publication Certificate</strong>
+            <span>Received recognition for research publication through RSP.</span>
+            <span>Highlights academic project work and contribution to scholarly publication efforts.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="technical">
+          <img src="assets/technical quiz.jpeg" alt="Technical Quiz Certificate">
+          <figcaption>
+            <strong>Technical Quiz Certificate</strong>
+            <span>Participated in Technical Quiz at Pondicherry Technological University.</span>
+            <span>Validated strong knowledge of information technology concepts and technical fundamentals.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="technical">
+          <img src="assets/code debugging.jpeg" alt="Code Debugging Certificate">
+          <figcaption>
+            <strong>Code Debugging Certificate</strong>
+            <span>Participated in Code Debugging at Pondicherry Technological University.</span>
+            <span>Applied analytical skills to identify and fix errors efficiently in coding challenges.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="others">
+          <img src="assets/iv.jpeg" alt="Industrial Visit Certificate">
+          <figcaption>
+            <strong>Industrial Visit Certificate</strong>
+            <span>Completed an industrial visit program for real-world industry exposure.</span>
+            <span>Gained practical insight into professional workflows and production environments.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="technical">
+          <img src="assets/web design.jpeg" alt="Web Design Certificate">
+          <figcaption>
+            <strong>Web Design Certificate</strong>
+            <span>Earned certification in web design principles and creative layout development.</span>
+            <span>Demonstrated ability to design visually appealing and user-friendly web interfaces.</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div class="section-heading">
+        <h2>Contact Me</h2>
+        <p>contact me through email</p>
+      </div>
+
+      <div class="contact-grid">
+        <aside class="contact-info">
+          <div>
+            <h3>Address</h3>
+            <p>No:49, Aariyanattu Chathira Street, Parangipettai, Bhuvanagiri Taluk, Cuddalore, Tamil Nadu-608502</p>
+          </div>
+          <div>
+            <h3>Phone Number</h3>
+            <p>+91 88389 59415</p>
+          </div>
+          <div>
+            <h3>Email ID</h3>
+            <p>jeevitharaja2811@gmail.com</p>
+          </div>
+        </aside>
+
+        <form class="contact-form" method="POST" novalidate>
+          <input type="checkbox" name="botcheck" class="contact-botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Your email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="7" placeholder="Write your message" required></textarea>
+
+          <button type="submit">Send</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Jeevitha. All Rights Reserved.</p>
+    <div class="footer-social" aria-label="Footer social links">
+      <a href="https://www.instagram.com/_jeevitha_.28/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram"><svg><use href="#icon-instagram"></use></svg></a>
+      <a href="https://t.me/@Jeevitha_28_11" target="_blank" rel="noreferrer" aria-label="Telegram" title="Telegram"><svg><use href="#icon-telegram"></use></svg></a>
+      <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg><use href="#icon-linkedin"></use></svg></a>
+      <a href="https://github.com/jeevitha281103" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><svg><use href="#icon-github"></use></svg></a>
+      <a href="mailto:jeevitharaja2811@gmail.com" aria-label="Email" title="Email"><svg><use href="#icon-email"></use></svg></a>
+    </div>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="Close certificate preview">Close</button>
+    <button type="button" class="zoom-control zoom-out" aria-label="Zoom out">-</button>
+    <img src="" alt="Certificate preview">
+    <button type="button" class="zoom-control zoom-in" aria-label="Zoom in">+</button>
+  </div>
+
+  <script src="contact-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
