@@ -248,6 +248,41 @@ a {
   color: #edf6ff;
 }
 
+.btn-resume {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--accent), var(--accent-light));
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(55, 164, 255, 0.2);
+  transition: transform 220ms ease, box-shadow 220ms ease, background 220ms ease;
+  cursor: pointer;
+}
+
+.btn-resume:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(55, 164, 255, 0.4);
+}
+
+.btn-resume:active {
+  transform: translateY(-1px);
+}
+
+.btn-resume .btn-icon {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .content-section {
   padding: 82px 7vw;
   background: var(--white);
@@ -424,7 +459,15 @@ a {
   box-shadow: var(--shadow);
 }
 
-.project-card img,
+.project-card img {
+  width: 100%;
+  height: 210px;
+  object-fit: contain;
+  background: #f8fafc;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
 .certificate-card img {
   width: 100%;
   height: 210px;
@@ -507,9 +550,11 @@ a {
   width: 100%;
   min-height: 340px;
   max-height: 520px;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
-  background: linear-gradient(135deg, #dfe7f2, #9fb5cf);
+  background: #f8fafc;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .gallery-control {
