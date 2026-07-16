@@ -21,7 +21,9 @@ const navObserver = new IntersectionObserver(
       if (!entry.isIntersecting) return;
 
       navLinks.forEach(link => {
-        link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`);
+        const isActive = link.getAttribute("href") === `#${entry.target.id}`;
+        link.classList.toggle("active", isActive);
+        if (isActive) link.scrollIntoView({ block: "nearest" });
       });
     });
   },
