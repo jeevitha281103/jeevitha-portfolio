@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/i3.png">
   <title>Jeevitha Portfolio | Full Stack Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -229,7 +230,7 @@
             <h4>Technical Skills</h4>
             <p>
               <ul>
-                <li><b>Front-End:</b>HTML, CSS, JavaScript,React JS . </li>
+                <li><b>Front-End:</b> HTML, CSS, JavaScript, React JS . </li>
                 <li><B>Programming:</B> Java , Python</li>
                 <li><b>Back-End:</b> My SQL, PHP</li>
               </ul>
@@ -238,9 +239,11 @@
           <div class="timeline-item">
             <h4><b>PROJECTS</b></h4>
             <h4>Auction Website:</h4>
-            <p>Built with HTML, CSS, JS and PHP for antique item bidding.</p>
+            <p>Developed a real-time auction platform with HTML5, CSS3, and Vanilla JavaScript featuring live bidding with countdown timers, role-based dashboards , secure multi-session authentication, payment processing. </p>
             </br><h4>AI-Driven Meal Planning Tool:</h4>
             <p>Built with HTML, CSS, JS, Python, MySQL and Inception V3 for personalized diet planning.</p>
+            </br><h4>Weather Forecast Dashboard:</h4>
+            <p>Developed a responsive Weather Forecast Dashboard using React, Vite, and OpenWeatherMap API featuring real-time weather data, 24-hour hourly forecasts, 5-day daily forecasts .</p>
           </div>
           <div class="timeline-item">
             <h4><b>COURSE</b></h4>
@@ -284,7 +287,7 @@
           <img src="assets/auction-website.png" alt="Auction Website project">
           <div>
             <h3>Auction Website</h3>
-            <p>An Auction Website is an web application that allows user to buy and sell antique items through an online bidding process.</p>
+            <p>A real-time auction platform built with HTML5, CSS3, and Vanilla JavaScript, featuring live bidding with countdown timers, role-based dashboards, multi-session authentication, payment processing, and localStorage/sessionStorage-based data persistence.</p>
             <a href="projects/auction-website.html">View Project</a>
           </div>
         </article>
@@ -297,13 +300,10 @@
           </div>
         </article>
         <article class="project-card">
-          <img src="assets/weather forecast dashboard.jpg" alt="Weather Forecast Dashboard project">
+          <img src="assets/weather-forecast-dashboard (home).png" alt="Weather Forecast Dashboard project">
           <div>
             <h3>Weather Forecast Dashboard</h3>
-            <p>Search city
-            <br>Current weather
-            <br>5-day forecast
-            <br>Tech: React + OpenWeather API</p>
+            <p>A sleek, dark-themed weather dashboard built with React and Vite that delivers real-time forecasts, animated weather effects, and location-based insights — powered by the OpenWeatherMap API and deployed automatically with GitHub Actions.</p>
             <a href="projects/weather-forecast-dashboard.html">View Project</a>
           </div>
         </article>
@@ -326,39 +326,31 @@
 
       <div class="certificate-grid">
         <figure class="certificate-card" data-category="course">
-          <img src="assets/html.jpg" alt="HTML Certificate">
-          <figcaption>
-            <strong>HTML Certificate</strong>
-            <span>Completed HTML Training through the Spoken Tutorial Project, IIT Bombay.</span>
-            <span>Built strong foundations in semantic markup and structured web page design.</span>
-          </figcaption>
-        </figure>
-        <figure class="certificate-card" data-category="course">
           <img src="assets/adfd.jpeg" alt="Advanced Diploma in Full Stack Development Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
             <strong>Advanced Diploma in Full Stack Development Certificate</strong>
             <span>Completed ADFD at CSC Institute covering frontend, backend, and database development.</span>
             <span>Strengthened practical skills in building complete full stack web applications.</span>
           </figcaption>
         </figure>
-        <figure class="certificate-card" data-category="others">
-          <img src="assets/workshop.jpeg" alt="Workshop Certificate">
-          <figcaption>
-            <strong>Workshop Certificate</strong>
-            <span>Attended a workshop on Testing of Electronic Devices in Hardware at Raja Electronics Institute.</span>
-            <span>Gained hands-on exposure to hardware testing methods and electronic device evaluation.</span>
-          </figcaption>
-        </figure>
-        <figure class="certificate-card" data-category="technical">
-          <img src="assets/relay coding.jpeg" alt="Relay Coding Certificate">
-          <figcaption>
-            <strong>Relay Coding Certificate</strong>
-            <span>Participated in Relay Coding at Pondicherry Technological University.</span>
-            <span>Demonstrated team-based competitive programming and rapid problem-solving under pressure.</span>
-          </figcaption>
-        </figure>
         <figure class="certificate-card" data-category="course">
           <img src="assets/git.jpg" alt="GIT Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
             <strong>GIT Certificate</strong>
             <span>Completed GIT Training through the Spoken Tutorial Project, IIT Bombay.</span>
@@ -366,23 +358,79 @@
           </figcaption>
         </figure>
         <figure class="certificate-card" data-category="course">
+          <img src="assets/html.jpg" alt="HTML Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
+          <figcaption>
+            <strong>HTML Certificate</strong>
+            <span>Completed HTML Training through the Spoken Tutorial Project, IIT Bombay.</span>
+            <span>Built strong foundations in semantic markup and structured web page design.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="course">
           <img src="assets/python 3.4.3.jpeg" alt="Python 3.4.3 Training Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
             <strong>Python 3.4.3 Training Certificate</strong>
             <span>Completed Python 3.4.3 Training through the Spoken Tutorial Project, IIT Bombay.</span>
             <span>Developed core Python programming skills for scripting and application development.</span>
           </figcaption>
         </figure>
-        <figure class="certificate-card" data-category="project">
-          <img src="assets/rsp.jpeg" alt="RSP Publication Certificate">
+        <figure class="certificate-card" data-category="technical">
+          <img src="assets/code debugging.jpeg" alt="Code Debugging Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
-            <strong>RSP Publication Certificate</strong>
-            <span>Received recognition for research publication through RSP.</span>
-            <span>Highlights academic project work and contribution to scholarly publication efforts.</span>
+            <strong>Code Debugging Certificate</strong>
+            <span>Participated in Code Debugging at Pondicherry Technological University.</span>
+            <span>Applied analytical skills to identify and fix errors efficiently in coding challenges.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="technical">
+          <img src="assets/relay coding.jpeg" alt="Relay Coding Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
+          <figcaption>
+            <strong>Relay Coding Certificate</strong>
+            <span>Participated in Relay Coding at Pondicherry Technological University.</span>
+            <span>Demonstrated team-based competitive programming and rapid problem-solving under pressure.</span>
           </figcaption>
         </figure>
         <figure class="certificate-card" data-category="technical">
           <img src="assets/technical quiz.jpeg" alt="Technical Quiz Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
             <strong>Technical Quiz Certificate</strong>
             <span>Participated in Technical Quiz at Pondicherry Technological University.</span>
@@ -390,27 +438,67 @@
           </figcaption>
         </figure>
         <figure class="certificate-card" data-category="technical">
-          <img src="assets/code debugging.jpeg" alt="Code Debugging Certificate">
+          <img src="assets/web design.jpeg" alt="Web Design Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
-            <strong>Code Debugging Certificate</strong>
-            <span>Participated in Code Debugging at Pondicherry Technological University.</span>
-            <span>Applied analytical skills to identify and fix errors efficiently in coding challenges.</span>
+            <strong>Web Design Certificate</strong>
+            <span>Earned certification in web design principles and creative layout development.</span>
+            <span>Demonstrated ability to design visually appealing and user-friendly web interfaces.</span>
+          </figcaption>
+        </figure>
+        <figure class="certificate-card" data-category="project">
+          <img src="assets/rsp.jpeg" alt="RSP Publication Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
+          <figcaption>
+            <strong>RSP Publication Certificate</strong>
+            <span>Received recognition for research publication through RSP.</span>
+            <span>Highlights academic project work and contribution to scholarly publication efforts.</span>
           </figcaption>
         </figure>
         <figure class="certificate-card" data-category="others">
           <img src="assets/iv.jpeg" alt="Industrial Visit Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
             <strong>Industrial Visit Certificate</strong>
             <span>Completed an industrial visit program for real-world industry exposure.</span>
             <span>Gained practical insight into professional workflows and production environments.</span>
           </figcaption>
         </figure>
-        <figure class="certificate-card" data-category="technical">
-          <img src="assets/web design.jpeg" alt="Web Design Certificate">
+        <figure class="certificate-card" data-category="others">
+          <img src="assets/workshop.jpeg" alt="Workshop Certificate">
+          <button type="button" class="cert-zoom-btn" aria-label="Zoom certificate image">
+            <svg class="zoom-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+          </button>
           <figcaption>
-            <strong>Web Design Certificate</strong>
-            <span>Earned certification in web design principles and creative layout development.</span>
-            <span>Demonstrated ability to design visually appealing and user-friendly web interfaces.</span>
+            <strong>Workshop Certificate</strong>
+            <span>Attended a workshop on Testing of Electronic Devices in Hardware at Raja Electronics Institute.</span>
+            <span>Gained hands-on exposure to hardware testing methods and electronic device evaluation.</span>
           </figcaption>
         </figure>
       </div>
@@ -425,10 +513,6 @@
       <div class="contact-grid">
         <aside class="contact-info">
           <div>
-            <h3>Address</h3>
-            <p>No:49, Aariyanattu Chathira Street, Parangipettai, Bhuvanagiri Taluk, Cuddalore, Tamil Nadu-608502</p>
-          </div>
-          <div>
             <h3>Phone Number</h3>
             <p>+91 88389 59415</p>
           </div>
@@ -436,6 +520,10 @@
             <h3>Email ID</h3>
             <p>jeevitharaja2811@gmail.com</p>
           </div>
+          <div>
+            <h3>Address</h3>
+            <p>No:49, Aariyanattu Chathira Street, Parangipettai, Bhuvanagiri Taluk, Cuddalore, Tamil Nadu-608502</p>
+          </div> 
         </aside>
 
         <form class="contact-form" method="POST" novalidate>
@@ -461,10 +549,10 @@
     <p>&copy; 2026 Jeevitha. All Rights Reserved.</p>
     <div class="footer-social" aria-label="Footer social links">
       <a href="https://www.instagram.com/_jeevitha_.28/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram"><svg><use href="#icon-instagram"></use></svg></a>
-      <a href="https://t.me/@Jeevitha_28_11" target="_blank" rel="noreferrer" aria-label="Telegram" title="Telegram"><svg><use href="#icon-telegram"></use></svg></a>
       <a href="https://www.linkedin.com/in/r-s-jeevitha-raja-7692642b3?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg><use href="#icon-linkedin"></use></svg></a>
       <a href="https://github.com/jeevitha281103" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><svg><use href="#icon-github"></use></svg></a>
       <a href="mailto:jeevitharaja2811@gmail.com" aria-label="Email" title="Email"><svg><use href="#icon-email"></use></svg></a>
+      <a href="https://t.me/@Jeevitha_28_11" target="_blank" rel="noreferrer" aria-label="Telegram" title="Telegram"><svg><use href="#icon-telegram"></use></svg></a>
     </div>
   </footer>
 

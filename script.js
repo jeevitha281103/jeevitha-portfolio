@@ -4,6 +4,7 @@ const skillItems = document.querySelectorAll(".skill-item");
 const certificateImages = document.querySelectorAll(".certificate-card img");
 const certificateCards = document.querySelectorAll(".certificate-card");
 const certFilters = document.querySelectorAll(".cert-filter");
+const certZoomBtns = document.querySelectorAll(".cert-zoom-btn");
 const lightbox = document.querySelector(".lightbox");
 const lightboxImage = document.querySelector(".lightbox img");
 const closeLightbox = document.querySelector(".lightbox-close");
@@ -68,6 +69,19 @@ certificateImages.forEach(image => {
     certificateZoom = 1;
     lightboxImage.src = image.src;
     lightboxImage.alt = image.alt;
+    lightbox.style.setProperty("--zoom", certificateZoom);
+    lightbox.classList.add("open");
+    lightbox.setAttribute("aria-hidden", "false");
+  });
+});
+
+certZoomBtns.forEach(button => {
+  button.addEventListener("click", () => {
+    const card = button.closest(".certificate-card");
+    const img = card.querySelector("img");
+    certificateZoom = 1;
+    lightboxImage.src = img.src;
+    lightboxImage.alt = img.alt;
     lightbox.style.setProperty("--zoom", certificateZoom);
     lightbox.classList.add("open");
     lightbox.setAttribute("aria-hidden", "false");

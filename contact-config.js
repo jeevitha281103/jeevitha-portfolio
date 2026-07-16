@@ -5,5 +5,5 @@ const CONTACT_FORM_CONFIG = {
   accessKey: "c899229b-785b-42be-8e6e-aa96c7b7aa0a",
   recipientEmail: "jeevitharaja2811@gmail.com",
   subject: "Portfolio Contact - New Message",
-  siteUrl: "https://jeevitha281103.github.io/jeevitha-portfolio/"
+  siteUrl: "https://jeevitha281103.github.io/Jeevitha-Portfolio/"
 };

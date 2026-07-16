@@ -3,12 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../assets/i3.png">
   <title>Weather Forecast Dashboard</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body class="project-detail-page">
   <header class="project-detail-header">
-    <a href="../index.html#projects">Back to Portfolio</a>
+    <a href="../index.html" class="header-brand">
+      <img src="../assets/i3.png" alt="Jeevitha logo" class="header-logo">
+      <div>
+        <div class="header-brand-name">Jeevitha</div>
+        <div class="header-brand-sub">Full Stack Developer</div>
+      </div>
+    </a>
+    <a href="../index.html#projects" class="back-link">
+      &#8592; Back to Portfolio
+    </a>
   </header>
 
   <main class="project-detail">
@@ -16,16 +26,16 @@
       <div class="project-gallery-viewport">
         <div class="project-gallery-track">
           <figure class="project-gallery-slide active">
-            <img src="../assets/project-3.jpg" alt="Weather Forecast Dashboard main view">
+            <img src="../assets/weather-forecast-dashboard (home).png" alt="Weather Forecast Dashboard home view">
+          </figure>
+           <figure class="project-gallery-slide">
+            <img src="../assets/weather-forecast-dashboard (weather-details-grid).png" alt="Weather Forecast Dashboard weather details grid">
           </figure>
           <figure class="project-gallery-slide">
-            <img src="../assets/weather forecast dashboard.jpg" alt="Weather Forecast Dashboard city search screen">
+            <img src="../assets/weather-forecast-dashboard (24-hour-forecast).png" alt="Weather Forecast Dashboard 24-hour forecast view">
           </figure>
           <figure class="project-gallery-slide">
-            <img src="../assets/weather-forecast-dashboard-2.jpg" alt="Weather Forecast Dashboard current weather view">
-          </figure>
-          <figure class="project-gallery-slide">
-            <img src="../assets/weather-forecast-dashboard-3.jpg" alt="Weather Forecast Dashboard 5-day forecast view">
+            <img src="../assets/weather-forecast-dashboard (5-day-forecast).png" alt="Weather Forecast Dashboard 5-day forecast view">
           </figure>
         </div>
       </div>
@@ -35,9 +45,10 @@
     </div>
     <section>
       <h1>Weather Forecast Dashboard</h1>
-      <p>This project is a Java-based product management concept for organizing product details, task status, and development progress. It is designed to support structured thinking around product creation and basic project tracking.</p>
-      <p>The project demonstrates programming logic, data organization, and product development interest. It can be improved with authentication, database storage, analytics, and export features for practical real-world use.</p>
-      <a href="https://jeevitha281103.github.io/weather-forecast-dashboard/" class="project-link" target="_blank" rel="noreferrer">Open Actual Project</a>
+      <p>Built a real-time Weather Forecast Dashboard using React, Vite, and the OpenWeatherMap API, featuring 24-hour hourly and 5-day daily forecasts with dynamic weather-based canvas animations and a dark glassmorphism UI.
+      <br>Implemented geolocation-based weather fetching, automatic day/night theme gradients, UV index estimation, and responsive card layouts with smooth scroll navigation across all screen sizes.
+      <br>Set up a fully automated CI/CD pipeline with GitHub Actions for seamless deployment to GitHub Pages, ensuring zero-config builds and instant updates on every push.</p>
+      <a href="https://jeevitha281103.github.io/Weather-Forecast-Dashboard/" class="project-link" target="_blank" rel="noreferrer">Open Actual Project</a>
     </section>
   </main>
   <script src="project-gallery.js"></script>
