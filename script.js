@@ -15,6 +15,20 @@ const formStatus = document.querySelector(".form-status");
 
 let certificateZoom = 1;
 
+function scrollNavToActive(link) {
+  const header = document.querySelector(".site-header");
+  if (link === navLinks[0]) {
+    header.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  const linkTop = link.offsetTop;
+  const linkHeight = link.offsetHeight;
+  const headerHeight = header.clientHeight;
+  const maxScroll = header.scrollHeight - headerHeight;
+  const target = Math.min(Math.max(0, linkTop - headerHeight / 2 + linkHeight / 2), maxScroll);
+  header.scrollTo({ top: target, behavior: "smooth" });
+}
+
 const navObserver = new IntersectionObserver(
   entries => {
     entries.forEach(entry => {
@@ -23,7 +37,7 @@ const navObserver = new IntersectionObserver(
       navLinks.forEach(link => {
         const isActive = link.getAttribute("href") === `#${entry.target.id}`;
         link.classList.toggle("active", isActive);
-        if (isActive) link.scrollIntoView({ block: "nearest" });
+        if (isActive) scrollNavToActive(link);
       });
     });
   },
